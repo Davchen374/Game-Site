@@ -14,7 +14,11 @@
   font-size: 30px;
   text-align: center;
 }
-
+@media (max-width: 767px) {
+  body {
+    background: red !important;
+  }
+}
 @media (max-width: 767px) {
   .layout {
     grid-template-columns: repeat(4, 1fr); /* 4 in a row */
