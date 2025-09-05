@@ -4,6 +4,7 @@
   background-color:white;
   font-size: 25px;
   font-family: 'Luckiest Guy';
+  flex-wrap: wrap;
 
 }
 
@@ -21,4 +22,26 @@
   margin-left: 50px;
   margin-top: 20px;
   font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;   /* stack items vertically */
+    align-items: center;      /* center align everything */
+    font-size: 18px;          /* smaller font size for mobile */
+    padding: 10px;
+  }
+
+  .h1bar {
+    margin: 10px 0;           /* reduce margins */
+    font-size: 22px;          /* smaller heading */
+    text-align: center;
+  }
+
+  .ulbar {
+    flex-direction: column;   /* stack nav items vertically */
+    gap: 10px;                /* tighter spacing */
+    margin: 10px 0;
+    font-size: 18px;
+  }
 }
