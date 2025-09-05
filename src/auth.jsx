@@ -40,7 +40,7 @@ function MyAuth(){
   }
 
   return(
-    <div className="flex flex-col sm:flex-row sm:justify-end sm:gap-x-10 gap-y-4 font-luckiest text-[25px]" >
+    <div className="flex flex-col sm:flex-row sm:justify-end items-center gap-y-4 sm:gap-x-10 w-full sm:pr-10 text-[25px] sm:text-[25px] font-luckiest" >
       <input type='text' value={email} onChange={handleSetEmail} className='border p-2 rounded w-40'/>
       <input type='password' value={password} onChange={handleSetPassword} className='border p-2 rounded w-40'/>
       <button onClick={handleLogIn}>Log In</button>
