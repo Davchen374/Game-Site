@@ -17,13 +17,13 @@
 
 @media (max-width: 767px) {
   .layout {
-    grid-template-columns: 1fr; /* single column on mobile */
-    grid-auto-rows: 200px;      /* smaller height for mobile cards */
-    gap: 16px;
+    grid-template-columns: repeat(4, 1fr); /* 4 in a row */
+    grid-auto-rows: 120px;  /* shrink image height */
+    gap: 10px;
     padding: 10px;
   }
 
   .layout h1 {
-    font-size: 20px; /* smaller text for mobile */
+    font-size: 14px;
   }
 }
