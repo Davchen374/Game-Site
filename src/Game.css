@@ -1,0 +1,29 @@
+.layer{
+  display: grid;
+  grid-template-columns: repeat(4, 300px); /* fixed width for each column */
+  grid-auto-rows: 350px; /* uniform row height */
+  gap: 20px; /* space between columns and rows */
+  justify-content: center; /* center the grid in the container */
+  background-color: black;
+}
+
+.games h1{
+  font-family: 'Luckiest Guy';
+  font-size: 30px;
+  color:white;
+}
+.games img{
+  width: 300px;
+  height: 325px;
+}
+.old h1{
+  font-family: 'Luckiest Guy';
+  font-size: 30px;
+  color:white;
+
+
+}
+.old img{
+  width: 250px;
+  height: 325px;
+}

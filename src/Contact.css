@@ -1,0 +1,20 @@
+.contact h1{
+  font-family: 'Luckiest Guy';
+  margin-left: 30px;
+  color:white;
+  font-size: 50px;
+}
+
+.contact h2{
+  font-family: 'Luckiest Guy';
+  margin-left: 30px;
+  color:white;
+  font-size: 30px;
+
+}
+
+.contact{
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
