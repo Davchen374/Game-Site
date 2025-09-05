@@ -10,6 +10,6 @@ Gime is a website created using React.js, Firebase, and Tailwind Css where users
 
 
 ### Tech Stack
-* Frontend: React, Javascript, HTML, Tailwind CSS, and CSS.
+* Frontend: React, Javascript, HTML, Tailwind CSS, and CSS
 * Backend: Firebase(Auth & Database)
 
