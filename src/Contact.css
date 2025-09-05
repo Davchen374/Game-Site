@@ -18,3 +18,21 @@
   min-height: 100vh;
   padding: 20px;
 }
+
+@media (max-width: 640px) {
+  .contact h1 {
+    font-size: 35px;  /* smaller font */
+    margin-left: 10px; /* smaller margin */
+    margin-right: 10px; /* prevent overflow */
+  }
+
+  .contact h2 {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contact {
+    padding: 15px; /* less padding on small screens */
+  }
+}
