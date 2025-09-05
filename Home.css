@@ -1,0 +1,99 @@
+.layout{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 350px; /* uniform row height */
+  gap: 20px; /* space between columns and rows */
+  justify-content: center; /* center the grid in the container */
+  background-color: black;
+}
+
+.league h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+}
+
+
+.tft h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+
+}
+
+
+.poe2 h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+  
+
+
+}
+
+.warcraft h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+
+}
+
+.csgo2 h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+
+}
+
+.valorant h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+
+}
+
+.fortnite h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+
+}
+
+.marvel h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+
+}
+
+.rocket h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+ 
+}
+
+.minecraft h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+
+
+}
+
+.escape h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+ 
+
+}
+
+.overwatch h1{
+  font-family: 'Luckiest Guy';
+  color:white;
+  font-size: 30px;
+  
+
+}
+
