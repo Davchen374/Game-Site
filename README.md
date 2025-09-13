@@ -14,4 +14,4 @@ Gime is a website created using React.js, Firebase, and Tailwind CSS where users
 * Backend: Firebase(Auth & Database)
 
 ### Website
-# https://gime.netlify.app/
+* https://gime.netlify.app/
